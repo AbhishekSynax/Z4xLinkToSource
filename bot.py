@@ -28,8 +28,8 @@ from telegram.ext import (
 BOT_TOKEN = "8570336986:AAHyU-d8ZxLTiITPzNdQdRaiVzKpMWITis0" # Apna Token Sahi Karein
 
 OWNER_ID = 7278872449
-OWNER_USERNAME = "Synaxchatrobot"
-PUBLIC_GROUP = "@synaxchatgroup"
+OWNER_USERNAME = "Z4X_Silent_Boy1"
+PUBLIC_GROUP = "@Bhaichara19"
 
 UPI_ID = "9651766896@fam"
 
@@ -264,7 +264,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not await is_joined(context, uid):
         kb = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔗 Join Group", url="https://t.me/Synaxchatgroup")],
+            [InlineKeyboardButton("🔗 Join Group", url="https://t.me/Bhaichara19")],
             [InlineKeyboardButton("✅ Check Join", callback_data="check_join")]
         ])
         await update.message.reply_text(
@@ -947,7 +947,7 @@ async def extract(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Check Join
     if not await is_joined(context, uid):
         kb = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔗 Join Group", url="https://t.me/Synaxchatgroup")],
+            [InlineKeyboardButton("🔗 Join Group", url="https://t.me/Bhaichara19")],
             [InlineKeyboardButton("✅ Check Join", callback_data="check_join")]
         ])
         await update.message.reply_text(
