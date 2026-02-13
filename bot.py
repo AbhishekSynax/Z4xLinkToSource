@@ -25,7 +25,7 @@ from telegram.ext import (
 )
 
 # ======================= CONFIG =======================
-BOT_TOKEN = "8570336986:AAHyU-d8ZxLTiITPzNdQdRaiVzKpMWITis0" # Apna Token Sahi Karein
+BOT_TOKEN = "8426779566:AAEce5zwmdCC0CjNCt7Ahijg1x5fyfYyN0s" # Apna Token Sahi Karein
 
 OWNER_ID = 7278872449
 OWNER_USERNAME = "Z4X_Silent_Boy1"
